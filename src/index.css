@@ -1,0 +1,134 @@
+*{
+  box-sizing: border-box;
+}
+.navbar--top{
+  width: 100%;
+  background-color: #abc51a;
+  height: 10vh;
+  border-bottom:  1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form--comments{
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input{
+  margin: 0 5px;
+  width: 50;
+  padding: 8px 5px;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  justify-content: center;
+}
+#task{
+  width: 80;
+}
+.form--input{
+  margin: 0 5px;
+  width: 100;
+  padding: 10px 5px;
+  align-items: right;
+  justify-content: center;
+  border-style: none;
+}
+.addtask-btn{
+  width:100px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #18b9ac;
+  color: #fff;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-style: none;
+  outline: none;
+  height: 40px;
+}
+.container{
+  width: 100%;
+  min-width: 100%;
+  display : flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.completed--wrapper,
+.pending--wrapper,
+.ongoing--wrapper{
+  width: 32%;
+  min-height: 60vh;
+  display: inline-block;
+  flex-direction:column;
+  padding: 5px;
+}
+.completed--wrapper>h3,
+.pending--wrapper>h3,
+.ongoing--wrapper>h3{
+  text-align: center;
+  text-transform: capitalize;
+  color:rgb(85, 85, 199)
+}
+.completed--items{
+  background-color: #7fb77e;
+}
+.completed--container,
+.pending--container,
+.ongoing--container{
+  width: 100%;
+  min-height: 55vh;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border:  2px solid #000;
+  border-radius: 5px;
+  align-items: center;
+}
+.comment{
+  text-align: right;
+  font-size: 14px;
+  cursor: pointer;
+  color: rgb(85, 85, 199);
+}
+.comment:hover{
+  text-decoration: none;
+  color: aqua;
+}
+.form--comments textarea{
+  width: 70%;
+  height: 20vh;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.form--comments{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.comment--Btn{
+  padding: 10px;
+  width: 200px;
+  background-color: #367e18;
+  outline: none;
+  border: none;
+  color: #fff;
+  height: 40px;
+  cursor: pointer;
+  display: inline block;
+  flex-direction: center;
+  justify-content: center;
+}
+p>a{
+  justify-content: right;
+  display: inline-block;
+  align-items: right;
+}
+
