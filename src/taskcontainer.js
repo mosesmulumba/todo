@@ -1,4 +1,5 @@
 import React from "react";
+import Dropzone from "./dnd";
 
 const TaskConatiner =()=>{
     return(
@@ -9,6 +10,7 @@ const TaskConatiner =()=>{
                   <div className="pending--container">
                     <div className="pending--items">
                         <p>Debug the notification</p>
+                        <Dropzone />
                         <p className="comment">
                         <a href="./comments" rel="link">Add Comment</a>
                         </p>
@@ -20,6 +22,7 @@ const TaskConatiner =()=>{
                     <div className="ongoing--container">
                         <div className="ongoing--items">
                             <p>Create Design for TODO</p>
+                            <Dropzone />
                             <p className="comment">
                             <a href="./comments" rel="link">Add Comment</a>
                             </p>
@@ -31,6 +34,7 @@ const TaskConatiner =()=>{
                     <div className="completed--container">
                         <div className="completed--items">
                             <p className="completed--items--p">Completed Designs</p>
+                            <Dropzone />
                             <p className="comment">
                                 <a href="./comments" rel="link">Add Comment</a>
                             </p>
