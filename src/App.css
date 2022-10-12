@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+}
+.dropzone-div{
+    text-align: center;
+    padding: 20px;
+    border: 2px dotted blue;
+    border-radius: 0.8rem;
+    width : 100%;
+    margin: auto;
+}
+.dropzone-div:hover{
+    background-color: black;
+    color: white;
+    border-style: none;
+}
