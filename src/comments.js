@@ -6,7 +6,7 @@ const Comments =()=>{
 
     const AddComment=(e)=>{
         e.preventDefault();
-        setComment();
+        setComment("");
     };
     return(
         <div className="comments--wrapper">
