@@ -36,13 +36,13 @@ const TaskConatiner =()=>{
                             <p className="completed--items--p">Completed Designs</p>
                             <Dropzone />
                             <p className="comment">
-                                <a href="./comments" rel="link">Add Comment</a>
+                                <a href="./comments.js" rel="link">Add Comment</a>
                             </p>
                         </div>
                     </div>
                 </div>
         </div>
-    </div>
+     </div>
     );
 }
 export default TaskConatiner;
